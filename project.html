@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>FINAL PROJECTS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: darkorange;
+    color: black;
+  }
+  .bg-2{
+    background-color: black;
+  }
+  .container-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+<br>
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top bg-2">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a style="color:white" class="navbar-brand" href="#">HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a style="color:white" href="#">ABOUT</a></li>
+        <li><a style="color:white" href="#">PORTFOLIO</a></li>
+        <li><a style="color:white" href="#">BLOG</a></li>
+        <li><a style="color:white" href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+<div class="jumbotron container-fluid">
+    <div class="container-fluid bg-1 text-center">
+      <h1>Hello ,Welcome To My official Website</h1>      
+      <p>This is my first website</p>
+    </div>
+</div>
+<!-- First Container -->
+<div class="container bg-1 text-center">
+  <h2 class="margin">M.Alfiansyah</h2>
+  <img src="ungaran.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h2>I just started Learning Fundamental Steps to Become a Web Programmer through the government Prakerja program at KODE.id by Hacktiv8. All i can tell is i like hiking, fotography, videography.</h2>
+</div>
+<br>
+<!-- Second Container -->
+<div class="container bg-1 text-center">    
+    <h3 class="margin">PORTOFOLIO</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>I took this milkyway photo in Gunung Sindoro a year ago</p>
+        <img src="sindoro.jpg" class="img-responsive margin" style="width:100%" height="450" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <p>I made this video 4 months ago while climbing on Mount Lawu</p>
+        <video width="320" height="450" controls>
+          <source src=lawu.mp4 type="video/mp4">
+          <source src=lawu.mp4 type="video/ogg">
+        </video>
+      </div>
+      <div class="col-sm-4"> 
+        <p>And this is me at senior high school, when i became vice president of student council</p>
+        <img src="waketos.jpg" class="img-responsive margin" width="300" height="450" alt="Image">
+      </div>
+    </div>
+  </div>
+<br>
+<!-- Third Container (Grid) -->
+<div class="container bg-1 text-center">
+    <h4>BLOG</h4>
+    <h4><span class="glyphicon glyphicon-time label label-success">Post by Alfian, 19 September, 2021.</span></h4><br>
+    <p>Halo, ini pertama kalinya saya menulis blog dan membuat sebuah landing page portfolio.</p>
+    <hr>
+
+    <h4>Leave a Comment:</h4>
+    <form role="form">
+      <div class="form-group">
+        <textarea class="form-control" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <br>
+</div>
+<br>
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+    <div id="contact" class="container-fluid bg-grey">
+        <h5 class="text-center">CONTACT</h5>
+        <div class="row">
+          <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Semarang, Indonesia</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +62 81229469822</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> m_alfiansyah17@yahoo.com</p>
+          </div>
+          <div class="col-sm-7 slideanim">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+</footer>
+</body>
+</html>
